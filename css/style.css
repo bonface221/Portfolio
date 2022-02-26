@@ -10,11 +10,12 @@ hmtl{
 }
 .header{
     height: 100vh;
-    background: url(../images/Hero-3.jpg);
+    background: url(/images/Hero-3.jpg);
     background-repeat: no-repeat ;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+
    
 
 }
@@ -26,8 +27,12 @@ nav{
     align-items: center;
     font-size: 25px;
     font-family: sans-serif;
+    position: sticky;
+    top: 0;
     
 }
+
+
 nav div{
     padding-left:8%;
     width: 13%;
@@ -81,4 +86,44 @@ span{
     color: #5ff2d1;
     padding: 8px 20px;
 }
+.btn1:hover{
+    /* background-color: #3a806e; */
+}
+.about-sec{
+    padding: 100px 0px 150px 8%;
+    
+}
+.abm{
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 20%;
+    padding-bottom: 4%;
+    color: #252e4d;
+    
+    
+}
+.abm::after{
+    content: "---";
+    
 
+}
+.aboutme{
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+
+}
+
+.aboutme:last-child{
+    font-size: 30px;
+    background-color: #252e4d;
+    padding: 40px;
+    color: #c2c7d8;
+    
+}
+.aboutme img{
+    width: 400px;
+    height: 220px;
+    padding-right:20%;
+    
+}
