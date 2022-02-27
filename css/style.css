@@ -177,10 +177,26 @@ nav li a:hover{
     border: 1px solid #5ff2d1;
     padding: 40px 60px;
     
+    
 }
-/* .max-width{ 
+ .max-width{ 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 100px 0px 150px 8%;
+    background-color:#271849;
+    color: #c2c7d8;
+    margin-bottom: 5%;
+}
+.skills h2{
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 20%;
+    padding-bottom: 4%;
+    color: #252e4d;
 }
 
-*/
+.col{
+    width: 70%;
+    font-size: 30px;
+    align-items: center;
+}
