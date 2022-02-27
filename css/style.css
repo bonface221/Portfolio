@@ -1,86 +1,95 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    
+
 }
-hmtl{
+
+hmtl {
     scroll-behavior: smooth;
 }
-.header{
+
+.header {
     height: 100vh;
-    background: url(../images/Hero-3.jpg);
-    background-repeat: no-repeat ;
+    background: url(./images/Hero-3.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 
-   
+
 
 }
-nav{
+
+nav {
     height: 60px;
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 30px;
     font-family: sans-serif;
-    
-    
+
+
 }
 
 
 
 
-nav ul{
+nav ul {
     display: flex;
     list-style-type: none;
     padding-right: 3%;
     overflow: hidden;
-    
-}
-nav ul li a{
-    padding-left:60px;
+
 }
 
+nav ul li a {
+    padding-left: 60px;
+}
 
 
-nav a{
+
+nav a {
     color: #c2c7d8;
     font-size: 28px;
-    
-    
+
+
 }
+
 nav div a h2 {
     position: relative;
     left: 90%;
     width: 13%;
     font-size: 40px;
 }
-nav li a:hover{
-    color:#5ff2d1
 
+nav li a:hover {
+    color: #5ff2d1
 }
-.home{
+
+.home {
     font-size: 35px;
     color: #dadeec;
     position: relative;
     top: 20%;
     padding-left: 8%;
 }
-.text2{
+
+.text2 {
     font-size: 48px;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    
-    
+
+
 }
-.green{
-    color:#5ff2d1
+
+.green {
+    color: #5ff2d1
 }
-.btn1{
+
+.btn1 {
     /* width: 13%; */
     font-size: 30px;
     cursor: pointer;
@@ -91,118 +100,132 @@ nav li a:hover{
     color: #5ff2d1;
     padding: 8px 20px;
 }
-.btn1 a{
+
+.btn1 a {
     color: #5ff2d1;
 }
-.btn1:hover{
-    background-color: #3a806e; 
+
+.btn1:hover {
+    background-color: #3a806e;
     transition: 0.2s;
 }
-.about-sec{
+
+.about-sec {
     padding: 100px 0% 110px 0%;
-    
-    
+
+
 }
 
 
-.abm{
+.abm {
     font-size: 50px;
     font-weight: bold;
     padding-left: 20%;
     padding-bottom: 4%;
     color: #252e4d;
-    
-    
+
+
 }
-.test{
+
+.test {
     background-color: #271849;
 
 }
-.abm::after{
+
+.abm::after {
     content: "---";
-    
+
 
 }
-.aboutme{
+
+.aboutme {
     display: flex;
     margin-right: 20px;
     align-items: center;
     margin-left: 8%;
-    
-    
-    
+
+
+
 
 }
 
-.aboutme:last-child{
+.aboutme:last-child {
     font-size: 30px;
-    
+
     padding: 40px;
     color: #c2c7d8;
     padding-top: 6%;
     padding-bottom: 6%;
-    
+
 }
-.aboutme img{
+
+.aboutme img {
     width: 400px;
     height: 220px;
-    padding-right:20%;
-    
+    padding-right: 20%;
+
 }
-.secp{
-    
+
+.secp {
+
     padding: 0px 0px 90px 0%;
     margin-bottom: 2%;
 
 }
 
-.fas{
+.fas {
     font-size: 40px;
     color: red;
     padding: 10px;
 }
-.projects-layout{
+
+.projects-layout {
     font-size: 30px;
     display: flex;
     width: 100%;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color:#271849;
+    background-color: #271849;
     padding-left: 8%;
-     color:#c2c7d8;
-     padding-top: 5%;
-     padding-bottom: 5%;
-     padding-right: 5%;
-    
+    color: #c2c7d8;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+
 }
-.projects h2{
+
+.projects h2 {
     font-size: 50px;
     font-weight: bold;
     padding-left: 20%;
     padding-bottom: 4%;
     color: #252e4d;
-    
+
 }
-.quizapp h3{
+
+.quizapp h3 {
     color: white;
-   
+
 }
-.quizapp{
+
+.quizapp {
     border: 1px solid #5ff2d1;
     padding: 40px 60px;
-    
-    
+
+
 }
- .max-width{ 
+
+.max-width {
     display: flex;
     justify-content: space-between;
     padding: 100px 0px 150px 8%;
-    background-color:#271849;
+    background-color: #271849;
     color: #c2c7d8;
     margin-bottom: 5%;
-    
+
 }
-.skills h2{
+
+.skills h2 {
     font-size: 50px;
     font-weight: bold;
     padding-left: 20%;
@@ -210,40 +233,46 @@ nav li a:hover{
     color: #252e4d;
 }
 
-.col{
+.col {
     width: 70%;
     font-size: 30px;
     align-items: center;
 }
-.lan{
+
+.lan {
     margin-bottom: 15px;
     margin-top: 30px;
     padding-top: 10px;
     margin-right: 5px;
 }
-.info{
-        display: flex;
-        margin-bottom: 5px;
-        align-items: center;
-        justify-content: space-between;
-        flex-wrap: wrap;
+
+.info {
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-.col-left h3{
+
+.col-left h3 {
     padding-bottom: 40px;
     color: white;
     ;
 }
-.col-left span{
-     font-weight: 500;
-     font-size: 30px;
+
+.col-left span {
+    font-weight: 500;
+    font-size: 30px;
 }
-.line{
-    height:5px;
+
+.line {
+    height: 5px;
     width: 100%;
     background-color: lightgrey;
     position: relative;
 }
-.line::before{
+
+.line::before {
     content: "";
     position: absolute;
     height: 100%;
@@ -251,6 +280,7 @@ nav li a:hover{
     top: 0;
     background: crimson;
 }
+
 .html::before {
     width: 88%;
 }
@@ -262,11 +292,12 @@ nav li a:hover{
 .js::before {
     width: 60%;
 }
-.bootstrap::before{
+
+.bootstrap::before {
     width: 50%;
 }
 
-.main{
+.main {
     padding-bottom: 9%;
     display: flex;
     justify-content: space-between;
@@ -277,82 +308,95 @@ nav li a:hover{
     align-items: center;
     margin-bottom: 0%;
     flex-wrap: wrap;
-   
+
 }
 
-.rightcol{
+.rightcol {
     width: 60%;
     padding-top: 10.3%;
-    
-    
-    
+
+
+
 }
-.item1{
+
+.item1 {
     display: flex;
     align-items: center;
     font-size: 30px;
     padding-bottom: 10px;
-    
+
 }
-.leftcol h3{
+
+.leftcol h3 {
     font-size: 33px;
     color: white;
     padding-bottom: 20px;
-    
-    
+
+
 }
 
-.subitem .head{
+.subitem .head {
     font-weight: bold;
 }
-.subhead ,a{
+
+.subhead,
+a {
     font-style: italic;
     font-size: 20px;
     color: #5ff2d1;
 
 }
-#add a i:hover{
-   background-color: #3a806e;
-   border: 1px solid #3a806e;
-   border-radius: 3px;
+
+#add a i:hover {
+    background-color: #3a806e;
+    border: 1px solid #3a806e;
+    border-radius: 3px;
 }
 
 
-.twin{
+.twin {
     display: flex;
     flex-wrap: wrap;
 }
-.field{
+
+.field {
     height: 80px;
-    
-    
-   
+
+
+
 }
-input[type=text] ,[type=email]{
+
+input[type=text],
+[type=email] {
     height: 45px;
     width: 400px;
 }
-.twin .name{
+
+.twin .name {
     padding-right: 10px;
 }
-.rightcol h3{
+
+.rightcol h3 {
     font-size: 32px;
     color: white;
     padding-bottom: 20px;
 }
-.rightcol .message .textarea{
+
+.rightcol .message .textarea {
     width: 60px;
 }
-.contact-me h2{
+
+.contact-me h2 {
     font-size: 50px;
     font-weight: bold;
     padding-left: 20%;
     padding-bottom: 4%;
     color: #252e4d;
 }
+
 footer {
-    
-    background:#f9fafd;
+
+    background: #f9fafd;
     padding: 15px 23px;
     color: rgb(20, 17, 17);
     text-align: center;
@@ -366,35 +410,42 @@ footer span a {
 footer span a:hover {
     text-decoration: underline;
 }
+
 @media screen and (max-width :800px) {
-    nav ul li a{
+    nav ul li a {
         display: none;
     }
-    nav div a h2{
+
+    nav div a h2 {
         font-size: 60px;
         padding-top: 20px;
     }
-    .aboutme{
+
+    .aboutme {
         display: block;
     }
-    .projects-layout{
+
+    .projects-layout {
         display: block;
-        
+
     }
-    .leftcol h3{
+
+    .leftcol h3 {
         padding-top: 10px;
     }
 
-    
+
 }
+
 @media screen and (max-width: 1100px) {
     nav ul li a {
         display: none;
     }
+
     .projects-layout {
-        
+
         display: grid;
         grid-template-rows: 1fr;
     }
-    
+
 }
