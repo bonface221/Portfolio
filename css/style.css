@@ -143,15 +143,12 @@ nav li a:hover{
     
 }
 .secp{
-    background-color:#271849;
-    padding: 100px 0px 150px 0%;
-    margin-bottom: 5%;
+    
+    padding: 10px 0px 90px 0%;
+    margin-bottom: 2%;
 
 }
-.projects{
-    margin-left: 8%;
-    color:#c2c7d8;
-}
+
 .fas{
     font-size: 40px;
     color: red;
@@ -160,17 +157,23 @@ nav li a:hover{
 .projects-layout{
     font-size: 30px;
     display: flex;
-    width: 90%;
+    width: 100%;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color:#271849;
+    padding-left: 8%;
+     color:#c2c7d8;
+     padding-top: 5%;
+     padding-bottom: 5%;
+     padding-right: 5%;
     
 }
 .projects h2{
-    color: white;
     font-size: 50px;
-    padding-bottom: 40px;
-    padding-left: 13%;
-    text-shadow: 2px 2px 2px red;
+    font-weight: bold;
+    padding-left: 20%;
+    padding-bottom: 4%;
+    color: #252e4d;
     
 }
 .quizapp{
