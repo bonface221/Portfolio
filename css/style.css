@@ -273,7 +273,7 @@ nav li a:hover{
     padding-left: 8%;
     color: #c2c7d8;
     background-color: #271849;
-    padding-top: 5%;
+    padding-top: 0%;
     align-items: center;
     margin-bottom: 0%;
     flex-wrap: wrap;
@@ -282,7 +282,8 @@ nav li a:hover{
 
 .rightcol{
     width: 60%;
-    padding-top: 3%;
+    padding-top: 8.5%;
+    
     
     
 }
