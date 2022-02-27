@@ -94,7 +94,7 @@ nav li a:hover{
     transition: 0.2s;
 }
 .about-sec{
-    padding: 100px 0% 150px 0%;
+    padding: 100px 0% 110px 0%;
     
     
 }
@@ -123,7 +123,7 @@ nav li a:hover{
     margin-right: 20px;
     align-items: center;
     margin-left: 8%;
-
+    
     
     
 
@@ -134,6 +134,8 @@ nav li a:hover{
     
     padding: 40px;
     color: #c2c7d8;
+    padding-top: 6%;
+    padding-bottom: 6%;
     
 }
 .aboutme img{
@@ -144,7 +146,7 @@ nav li a:hover{
 }
 .secp{
     
-    padding: 10px 0px 90px 0%;
+    padding: 0px 0px 90px 0%;
     margin-bottom: 2%;
 
 }
