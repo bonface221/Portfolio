@@ -10,7 +10,7 @@ hmtl{
 }
 .header{
     height: 100vh;
-    background: url(/images/Hero-3.jpg);
+    background: url(../images/Hero-3.jpg);
     background-repeat: no-repeat ;
     background-size: cover;
     background-position: center;
@@ -72,7 +72,7 @@ nav li a:hover{
     
     
 }
-span{
+.green{
     color:#5ff2d1
 }
 .btn1{
@@ -86,21 +86,32 @@ span{
     color: #5ff2d1;
     padding: 8px 20px;
 }
+.btn1 a{
+    color: #5ff2d1;
+}
 .btn1:hover{
-    /background-color: #3a806e; 
+    background-color: #3a806e; 
+    transition: 0.2s;
 }
 .about-sec{
-    padding: 100px 0px 150px 8%;
+    padding: 100px 0% 150px 0%;
+    
     
 }
+
+
 .abm{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
     padding-left: 20%;
     padding-bottom: 4%;
     color: #252e4d;
     
     
+}
+.test{
+    background-color: #271849;
+
 }
 .abm::after{
     content: "---";
@@ -111,12 +122,16 @@ span{
     display: flex;
     margin-right: 20px;
     align-items: center;
+    margin-left: 8%;
+
+    
+    
 
 }
 
 .aboutme:last-child{
     font-size: 30px;
-    background-color: #252e4d;
+    
     padding: 40px;
     color: #c2c7d8;
     
@@ -127,3 +142,45 @@ span{
     padding-right:20%;
     
 }
+.secp{
+    background-color:#271849;
+    padding: 100px 0px 150px 0%;
+    margin-bottom: 5%;
+
+}
+.projects{
+    margin-left: 8%;
+    color:#c2c7d8;
+}
+.fas{
+    font-size: 40px;
+    color: red;
+    padding: 10px;
+}
+.projects-layout{
+    font-size: 30px;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.projects h2{
+    color: white;
+    font-size: 40px;
+    padding-bottom: 40px;
+    padding-left: 20%;
+    text-shadow: 2px 2px 2px red;
+    
+}
+.quizapp{
+    border: 1px solid #5ff2d1;
+    padding: 40px 60px;
+    
+}
+/* .max-width{ 
+    display: flex;
+    justify-content: center;
+}
+
+*/
