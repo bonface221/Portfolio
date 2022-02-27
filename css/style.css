@@ -25,19 +25,14 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 25px;
+    font-size: 30px;
     font-family: sans-serif;
-    position: sticky;
-    top: 0;
+    
     
 }
 
 
-nav div{
-    padding-left:8%;
-    width: 13%;
-    font-size: 30px;
-}
+
 
 nav ul{
     display: flex;
@@ -50,9 +45,19 @@ nav ul li a{
     padding-left:60px;
 }
 
+
+
 nav a{
     color: #c2c7d8;
+    font-size: 28px;
     
+    
+}
+nav div a h2 {
+    position: relative;
+    left: 90%;
+    width: 13%;
+    font-size: 40px;
 }
 nav li a:hover{
     color:#5ff2d1
@@ -178,6 +183,10 @@ nav li a:hover{
     color: #252e4d;
     
 }
+.quizapp h3{
+    color: white;
+   
+}
 .quizapp{
     border: 1px solid #5ff2d1;
     padding: 40px 60px;
@@ -191,6 +200,7 @@ nav li a:hover{
     background-color:#271849;
     color: #c2c7d8;
     margin-bottom: 5%;
+    
 }
 .skills h2{
     font-size: 50px;
@@ -216,11 +226,12 @@ nav li a:hover{
         margin-bottom: 5px;
         align-items: center;
         justify-content: space-between;
+        flex-wrap: wrap;
 }
 .col-left h3{
     padding-bottom: 40px;
     color: white;
-    text-decoration: underline #5ff2d1;
+    ;
 }
 .col-left span{
      font-weight: 500;
@@ -255,3 +266,102 @@ nav li a:hover{
     width: 50%;
 }
 
+.main{
+    padding-bottom: 9%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8%;
+    color: #c2c7d8;
+    background-color: #271849;
+    padding-top: 5%;
+    align-items: center;
+    margin-bottom: 0%;
+    flex-wrap: wrap;
+   
+}
+
+.rightcol{
+    width: 60%;
+    padding-top: 3%;
+    
+    
+}
+.item1{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+    
+}
+.leftcol h3{
+    font-size: 33px;
+    color: white;
+    padding-bottom: 20px;
+    
+    
+}
+
+.subitem .head{
+    font-weight: bold;
+}
+.subhead ,a{
+    font-style: italic;
+    font-size: 20px;
+    color: #5ff2d1;
+
+}
+#add a i:hover{
+   background-color: #3a806e;
+   border: 1px solid #3a806e;
+   border-radius: 3px;
+}
+
+
+.twin{
+    display: flex;
+    flex-wrap: wrap;
+}
+.field{
+    height: 80px;
+    
+    
+   
+}
+input[type=text] ,[type=email]{
+    height: 45px;
+    width: 400px;
+}
+.twin .name{
+    padding-right: 10px;
+}
+.rightcol h3{
+    font-size: 32px;
+    color: white;
+    padding-bottom: 20px;
+}
+.rightcol .message .textarea{
+    width: 60px;
+}
+.contact-me h2{
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 20%;
+    padding-bottom: 4%;
+    color: #252e4d;
+}
+footer {
+    
+    background:#f9fafd;
+    padding: 15px 23px;
+    color: rgb(20, 17, 17);
+    text-align: center;
+}
+
+footer span a {
+    color: crimson;
+    text-decoration: none;
+}
+
+footer span a:hover {
+    text-decoration: underline;
+}
