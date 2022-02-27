@@ -215,7 +215,7 @@ nav li a:hover{
 .col-left h3{
     padding-bottom: 40px;
     color: white;
-    text-decoration: underline red;
+    text-decoration: underline #5ff2d1;
 }
 .col-left span{
      font-weight: 500;
