@@ -12,7 +12,7 @@ hmtl {
 
 .header {
     height: 100vh;
-    background-image: url(./images/Hero-3.jpg);
+    background-image: url("images/Hero-3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
